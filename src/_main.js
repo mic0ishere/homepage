@@ -1,5 +1,7 @@
 import { updateDateAndTime } from "./utils/timeManager.js"
 
+import moment from 'moment/min/moment-with-locales'
+
 export var backgroundElement = document.getElementById('js-bg')
 
 export function runClock() {

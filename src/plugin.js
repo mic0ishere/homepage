@@ -5,6 +5,8 @@ import { runTerminal } from "./utils/terminal.js"
 import { timeInHex } from "./utils/timeManager.js"
 import { runClock, backgroundElement } from "./_main.js"
 
+import moment from 'moment/min/moment-with-locales'
+
 runClock()
 
 chrome.storage.local.get({

@@ -1,6 +1,8 @@
 import { isChrome, isFirefox, getBrowser } from "./utils/browser.js"
 import { runClock, backgroundElement } from "./_main.js"
 
+import moment from 'moment/min/moment-with-locales'
+
 runClock()
 
 function turnSwitch(el) {

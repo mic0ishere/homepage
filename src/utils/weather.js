@@ -1,6 +1,8 @@
 import { http } from "./http.js"
 import { wicons } from "./lists.js"
 
+import moment from 'moment/min/moment-with-locales'
+
 function newWeatherTime(target, items, data) {
   var element = document.createElement("div")
   var wlIcon = document.createElement("img")

@@ -1,3 +1,5 @@
+import moment from 'moment/min/moment-with-locales'
+
 var format
 try {
   chrome.storage.local.get({

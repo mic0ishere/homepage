@@ -148,6 +148,9 @@
 .terminal #googleapps a:nth-child(1)::after { content: "Google Docs"; }
 .terminal #googleapps a:nth-child(2)::after { content: "Google Sheets"; }
 .terminal #googleapps a:nth-child(3)::after { content: "Google Slides"; }
+.terminal #googleapps a:nth-child(4)::after { content: "Google Calendar"; }
+.terminal #googleapps a:nth-child(5)::after { content: "Google Photos"; }
+.terminal #googleapps a:nth-child(6)::after { content: "Google News"; }
 
 
 /* Quick links */
